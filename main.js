@@ -89,8 +89,6 @@ function genInput() {
   });
 }
 
-console.log(wordToGuess);
-
 const guessBtn = document.querySelector(".check");
 
 guessBtn.addEventListener("click", handleGuess);
